@@ -9,7 +9,7 @@ function ShowTextWithParameter(name){
 }
 
 function Input3StringsOutputString(name1, name2, name3){
-    alert("Hi function with 3 Parameter - "+ name1 +" " +  name2 + " " + name3);
+    alert(`Hi function with 3 Parameter - ${name1} ${name2} ${name3}`);
 }
 
 ShowRandomText();
