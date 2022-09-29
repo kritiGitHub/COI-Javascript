@@ -2,13 +2,13 @@ const randomNumber1 = Math.random(); // produces random number between 0 (includ
 const randomNumber2 = Math.random();
 
 function ControlStructures(){
-    //Assignment 1 - Show alert when randomNumber is > 0.7
+    //Task 1 - Show alert when randomNumber is > 0.7
     if(randomNumber1 > 0.7){
         alert(`Random Number is greater than 0.7. The Number is - ${randomNumber1}`);
         console.log(`Random Number is greater than 0.7. The Number is - ${randomNumber1}`);
     }
 
-    //Assignment 4 - show an alert in two different scenarios: Both are greater 0.7 OR 
+    //Task 4 - show an alert in two different scenarios: Both are greater 0.7 OR 
     //at least one of the two is NOT greater than 0.2.
     if(randomNumber1 > 0.7 && randomNumber2 > 0.7 || (randomNumber1 < 0.2 || randomNumber2 < 0.2)){
         if(randomNumber1 > 0.7 && randomNumber2 > 0.7){
@@ -42,8 +42,8 @@ function IterateArrayOfNumbers(){
     }
 }
 
-//2nd Assignment Task - Create 2 types of for iterations
-//3nd Assignment Task - Update 1 for loop to display max index to 0 index
+//Task 2 - Create 2 types of for iterations
+//Task 3 - Update 1 for loop to display max index to 0 index
 IterateArrayOfNumbers();
-//1st Assignment Task
+//Task 1
 ControlStructures();
